@@ -171,3 +171,105 @@ padding: 0;
     padding: 10px;
     transform: translateY(-40px);
 }
+@media only screen and (max-width: 768px) {
+    .nav-items{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .anchor-sec{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .anchor-opt{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .banner-1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-1-left{
+        margin-left: 65px;
+    }
+    .banner-1 img{
+        height: 80%;
+        width: 80%;
+    }
+    .banner-2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-2 img{
+        width: 80%;
+        height: 80%;
+    }
+    .banner-2-right{
+        text-align: center;
+        margin-left: 55px;
+    }
+    .banner-2-text{
+        text-align: center;
+    }
+    .banner-2-para{
+        text-align: center;
+    }
+    .mid-head{
+        text-align: center;
+    }
+    .mid-para{
+        text-align: center;
+    }
+    .video-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .play-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .play-txt{
+        text-align: center;
+    }
+    .inst{
+        text-align: center;
+    }
+    .dnwl{
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+    }
+    .img-1{
+        width: 40%;
+        height: 40%;
+    }
+    .career-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .career-img{
+        width: 80%;
+        height: 80%;
+    }
+    .game-sec-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .game-sec-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
