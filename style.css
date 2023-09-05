@@ -1,0 +1,50 @@
+*{
+    font-family: 'Alkatra', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Tilt Warp', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+.nav-logo{
+    display: flex;
+    gap: 8px;
+}
+.except-txt{
+    color: pink;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+.anchor-sec{
+    display: flex;
+    gap: 30px;
+}
+.except-items{
+    display: flex;
+    background-color: #08FFF9;
+    border-radius: 8px;
+    padding: 8px 8px;
+    height: 25px;
+}
+.nav-btn{
+    border: 0;
+    background-color: #08FFF9;
+}
+.nav-icons{
+    margin: 8px;
+}
+.anchor-opt{
+    margin-top: 15px;
+}
+.anchor-opt a{
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
