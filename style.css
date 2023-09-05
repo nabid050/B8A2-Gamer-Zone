@@ -10,6 +10,8 @@ font-family: 'Righteous', cursive;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Tilt Warp', cursive;
 font-family: 'Ubuntu', sans-serif;
+margin: 0;
+padding: 0;
 }
 .nav-logo{
     display: flex;
@@ -21,6 +23,7 @@ font-family: 'Ubuntu', sans-serif;
 .nav-items{
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
 .anchor-sec{
     display: flex;
@@ -47,4 +50,51 @@ font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     color: black;
     margin: 12px;
+}
+.main-sec{
+    margin-top: 150px;
+}
+.play-text{
+    font-size: 30px;
+}
+.goat-text{
+    color: #7e65f0;
+    font-size: 55px;
+    font-weight: 800;
+}
+.banner-icn{
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+.banner-1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.banner-1-img{
+    width: 400px;
+    height: 381px;
+}
+.banner-1-left{
+    background-image: url('./images/Group 14.png');
+    height: 380px;
+    width: 270px;
+}
+.btn-sec{
+    margin-top: 20px;
+}
+.sign-btn{
+    background-color: rgb(146, 107, 146);
+    color: white;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 15px;
+}
+.go-btn{
+    background-color: #4EC5F7;
+    color:white;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 15px;
 }
