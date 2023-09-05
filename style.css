@@ -137,3 +137,8 @@ padding: 0;
     height: 200px;
     width: 180px;
 }
+.cat-img{
+    position: relative;
+    margin-top: -190px;
+    margin-right: 10px;
+}
